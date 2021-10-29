@@ -1,0 +1,9 @@
+﻿  cColectivo.cpp
+  cMedioTransporte.cpp
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\MedioTransporte\cMedioTransporte.cpp(46,52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\MedioTransporte\cMedioTransporte.cpp(57,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\MedioTransporte\cMedioTransporte.cpp(69,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  cSubte.cpp
+  Source.cpp
+  Generating Code...
+  MedioTransporte.vcxproj -> C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\MedioTransporte\Debug\MedioTransporte.exe
