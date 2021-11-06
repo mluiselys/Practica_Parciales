@@ -1,0 +1,44 @@
+﻿  cHeladeria.cpp
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<T>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<T>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(24): message : see reference to class template instantiation 'cLista<T>' being compiled
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(70,1): error C2063: 'cLista<T>::Eliminar': not a function
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(70,1): error C2350: 'cLista<T>::Eliminar' is not a static member
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(69): message : see declaration of 'cLista<T>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,5): error C3861: 'aux': identifier not found
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,18): error C3861: 'clave': identifier not found
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,24): error C2760: syntax error: unexpected token ';', expected '}'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,1): error C2207: 'cLista<T>::Eliminar': a member of a class template cannot acquire a function type
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cHeladeria.h(12): message : see reference to class template instantiation 'cLista<cMercaderia>' being compiled
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<cMercaderia>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<cMercaderia>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<cPrecio>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<cPrecio>::Eliminar'
+  cLista.cpp
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<T>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<T>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(24): message : see reference to class template instantiation 'cLista<T>' being compiled
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(70,1): error C2063: 'cLista<T>::Eliminar': not a function
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(70,1): error C2350: 'cLista<T>::Eliminar' is not a static member
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(69): message : see declaration of 'cLista<T>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,5): error C3861: 'aux': identifier not found
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,18): error C3861: 'clave': identifier not found
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,24): error C2760: syntax error: unexpected token ';', expected '}'
+  cMercaderia.cpp
+  Source.cpp
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<T>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<T>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(24): message : see reference to class template instantiation 'cLista<T>' being compiled
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(70,1): error C2063: 'cLista<T>::Eliminar': not a function
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(70,1): error C2350: 'cLista<T>::Eliminar' is not a static member
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(69): message : see declaration of 'cLista<T>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,5): error C3861: 'aux': identifier not found
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,18): error C3861: 'clave': identifier not found
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(71,24): error C2760: syntax error: unexpected token ';', expected '}'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,1): error C2207: 'cLista<T>::Eliminar': a member of a class template cannot acquire a function type
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cHeladeria.h(12): message : see reference to class template instantiation 'cLista<cMercaderia>' being compiled
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<cMercaderia>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<cMercaderia>::Eliminar'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(17,7): error C2365: 'cLista<cPrecio>::Eliminar': redefinition; previous definition was 'data member'
+C:\Users\mluis\Documents\2021 - 02 Cuatr\Laboratorio Programacion 1\Parciales_Anteriores\PARCILES\cHeladeria\cLista.h(11): message : see declaration of 'cLista<cPrecio>::Eliminar'
+  Generating Code...
