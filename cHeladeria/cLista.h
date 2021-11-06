@@ -14,12 +14,15 @@ public:
 	~cLista();
 
 	void Agregar(T* objeto);
-	void Eliminar(string clave);
+	void Elimina(string clave);
 	T* Buscar(string clave);
 	T* Quitar(string clave);
-	T* BuscaPos(string clave);
+	int BuscaPos(string clave);
 	T* getitem(int pos);
 	void Listar();
+
+	void operator+(T* nuevo);
+	void operator-(string clave);
 	int getCA() { return CA; };
 };
 
@@ -66,11 +69,13 @@ inline void cLista<T>::Agregar(T* objeto)
 }
 
 template<class T>
-inline void cLista<T>::Eliminar(string clave)
+inline void cLista<T>::Elimina(string clave)
 {
 	T* aux = Quitar(clave);
-	if (aux != NULL)
+
+	if (aux != NULL) {
 		delete aux;
+	}
 }
 
 template<class T>
@@ -100,7 +105,7 @@ inline T* cLista<T>::Quitar(string clave)
 }
 
 template<class T>
-inline T* cLista<T>::BuscaPos(string clave)
+inline int cLista<T>::BuscaPos(string clave)
 {
 	for (int i = 0; i < CA; i++)
 	{
@@ -133,4 +138,24 @@ inline void cLista<T>::Listar()
 	{
 		cout << lista[i];
 	}
+}
+
+template<class T>
+inline void cLista<T>::operator+(T* nuevo)
+{
+	try
+	{
+		Agregar(nuevo);
+	}
+	catch (exception* ex)
+	{
+		cout << ex->what() << endl;
+		delete ex;
+	}
+}
+
+template<class T>
+inline void cLista<T>::operator-(string clave)
+{
+	Elimina(clave);
 }
